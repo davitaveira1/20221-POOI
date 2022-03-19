@@ -13,8 +13,9 @@ public class Ex02 {
         System.out.print("Informe a idade: ");
         idade = entrada.nextInt();
         
-        System.out.println("\nMês informado: "+mesNascimento);
-        System.out.println("\nIdade informada: "+idade);
+        System.out.println("\nMês informado: "+mesNascimento+" Idade: "+idade);
+        
+        System.out.printf("Mês informado: %s",mesNascimento," Idade: %d",idade);
         
         
     }
