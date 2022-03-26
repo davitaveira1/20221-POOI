@@ -18,8 +18,10 @@ public class Ex05 {
         double medida = 53.234567;
         
         System.out.println("Produtos: \n");
-        System.out.printf("%s, preco: %.1f\n",produto1,preco1);
-        System.out.printf("%s, preco: %.1f\n\n",produto2,preco2);
+        //System.out.printf("%s, preco: %.1f\n",produto1,preco1);
+        System.out.println(produto1+ ", preco: "+preco1);
+        //System.out.printf("%s, preco: %.1f\n\n",produto2,preco2);
+        System.out.println(produto2+ ", preco: "+preco2);
         
         System.out.printf("Registro: %d anos, codigo %d e sexo %s\n\n",idade,codigo,sexo);
         
