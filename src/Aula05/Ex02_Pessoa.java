@@ -13,5 +13,5 @@ public class Ex02_Pessoa {
     void mostrarTelefone(){
         System.out.println("Telefone: "+telefone);
     }
-      
+          
 }
