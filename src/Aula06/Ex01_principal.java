@@ -9,8 +9,18 @@ public class Ex01_principal {
         conta1.nomeTitular="Davi Taveira";
         conta1.nroConta="0529-0";
         conta1.saldo=1000;
-        conta1.mostrarValoresAtributos();
+        conta1.mostrarSaldo();
         
+        Ex01_Conta conta2 = new Ex01_Conta();
+        conta2.nomeTitular="Daniel Taveira";
+        conta2.nroConta="1234-0";
+        conta2.saldo=2000;
+        conta2.mostrarSaldo();
+        System.out.println("========");
+        System.out.println("Transferindo R$ 200\n");
+        conta1.transferir(conta2, 200);
+        //conta1.mostrarValoresAtributos();
+        /*
         Ex01_Conta conta2 = new Ex01_Conta();
         conta2.nomeTitular="Daniel Taveira";
         conta2.nroConta="1234-0";
@@ -28,6 +38,9 @@ public class Ex01_principal {
         conta4.nroConta="9871-0";
         conta4.saldo=5000;
         conta4.mostrarValoresAtributos();
+        */
+        //creditando valores
+
         
         
         

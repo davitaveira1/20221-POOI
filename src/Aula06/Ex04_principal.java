@@ -25,6 +25,8 @@ public class Ex04_principal {
         carro1.placa="NKT-0900";
         carro1.preco=45000;
         carro1.mostrarAtributos();
+        carro1.valorTabelaFIPE();
+        carro1.valorIPVA();
         
     }
     

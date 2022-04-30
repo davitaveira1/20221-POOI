@@ -17,4 +17,17 @@ public class Ex04_Carro {
         System.out.println("Cor: "+cor+"\tPreço: "+preco);
     }
     
+    void valorTabelaFIPE(){
+        System.out.println("Valor tabela FIPE: "+0.8*preco);
+    }
+    
+    double valorTabelaFIPEv2(){
+        return 0.8*preco;
+    }
+    
+    void valorIPVA(){
+        System.out.println("IPVA: "+0.05*valorTabelaFIPEv2());
+    }
+    
+    
 }
