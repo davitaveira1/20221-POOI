@@ -40,10 +40,7 @@ public class Ex01_Conta {
             //debitar
             saldo = saldo - valor;
             System.out.println("Conta: "+nroConta+" Saldo: "+saldo);
-        }
-        
-        
-        
+        }       
     }
     
    
