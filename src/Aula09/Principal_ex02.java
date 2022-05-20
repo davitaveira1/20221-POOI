@@ -3,19 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Aula09_ex02;
+package Aula09;
 
 /**
  *
  * @author Davi
  */
-public class Principal {
+public class Principal_ex02 {
     
     public static void main(String[] args) {
-        Pessoa p1 = new Pessoa("Davi","000.000.000-00");
-        
-        System.out.println("Nome: "+p1.nome);
-        System.out.println("CPF: "+p1.cpf);
+                
+        System.out.println("Nº máx alunos: "+Turma_ex02.nroMaximoAlunos);
+        System.out.println("Aluno matriculado: "+Turma_ex02.nomeAlunoMatriculado("Davi"));
     }
     
 }

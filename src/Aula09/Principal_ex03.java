@@ -5,16 +5,19 @@
  */
 package Aula09;
 
+
+
 /**
  *
  * @author Davi
  */
-public class Turma1V2 {
+public class Principal_ex03 {
     
-    static int nroMaximoAlunos = 40;
-    
-    static String nomeAlunoMatriculado(String nome){
-        return nome;
+    public static void main(String[] args) {
+        Pessoa_ex03 p1 = new Pessoa_ex03("Davi","000.000.000-00");
+        
+        System.out.println("Nome: "+p1.nome);
+        System.out.println("CPF: "+p1.cpf);
     }
     
 }

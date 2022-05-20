@@ -9,11 +9,11 @@ package Aula09;
  *
  * @author Davi
  */
-public class Turma {
+public class Turma_ex02 {
     
-    int nroMaximoAlunos = 40;
+    static int nroMaximoAlunos = 40;
     
-    String nomeAlunoMatriculado(String nome){
+    static String nomeAlunoMatriculado(String nome){
         return nome;
     }
     
