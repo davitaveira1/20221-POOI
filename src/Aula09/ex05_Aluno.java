@@ -9,12 +9,16 @@ package Aula09;
  *
  * @author Davi
  */
-public class Turma_ex01 {
+public class ex05_Aluno {
     
-    int nroMaximoAlunos = 40;
-    
-    String nomeAlunoMatriculado(String nome){
-        return nome;
+    String nome;
+
+    public ex05_Aluno(String campoNome) {
+        nome = campoNome;
     }
+
+    
+    
+    
     
 }

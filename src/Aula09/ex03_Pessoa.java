@@ -5,25 +5,23 @@
  */
 package Aula09;
 
-import Aula09_ex02.*;
-
 /**
  *
  * @author Davi
  */
-public class Pessoa_ex03 {
+public class ex03_Pessoa {
     
     String nome;
     String cpf;
     
-    Pessoa_ex03(){        
+    ex03_Pessoa(){        
     }
     
-    Pessoa_ex03(String campoNome){
+    ex03_Pessoa(String campoNome){
         nome = campoNome;
     }
     
-    Pessoa_ex03(String campoNome,String campoCpf){
+    ex03_Pessoa(String campoNome,String campoCpf){
         nome = campoNome;
         cpf = campoCpf;
     }
