@@ -3,22 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Aula09;
+package Aula10;
 
 /**
  *
  * @author Davi
  */
-public class ex01_Turma {
+public class Categoria {
     
-    int nroMaximoAlunos = 40;
+    private String nome;
     
-    String nomeAlunoMatriculado(String nome){
+    String getNome(){
         return nome;
     }
-
     
-    
-    
+    void setNome(String nome){
+        this.nome = nome;
+    }
     
 }
