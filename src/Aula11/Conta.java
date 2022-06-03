@@ -53,7 +53,17 @@ public class Conta {
         return "Conta{" + "conta=" + conta + ", titular=" + titular + ", saldo=" + saldo + '}';
     }
     
+    public void saque(double valor){
+        if(saldo >= valor){
+            saldo = saldo - valor;
+        }else{
+            System.out.println("Saldo insuficiente!");
+        }
+    }
     
+    public void deposito(double valor){
+        saldo = saldo + valor;
+    }
     
     
 }

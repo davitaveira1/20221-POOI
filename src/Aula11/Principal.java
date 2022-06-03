@@ -14,8 +14,13 @@ public class Principal {
     public static void main(String[] args) {
         
         Conta c1 = new Conta(1,"Davi",1000);
+        ContaEmpresarial ce1 = new ContaEmpresarial();
+        
+        ce1.setConta(2);
+        ce1.setTitular("Ricardo");       
         
         System.out.println(c1);
+        System.out.println("Titular conta empresarial: "+ce1.getTitular());
     }
     
 }
