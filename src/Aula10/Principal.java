@@ -17,6 +17,8 @@ public class Principal {
         
         p1.setNome("TV");
         c1.setNome("Eletrodoméstico");
+        
+        p1.setCategoria(c1);
     }
     
 }
