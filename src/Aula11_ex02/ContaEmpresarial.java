@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Aula11;
+package Aula11_ex02;
+
+import Aula11.*;
 
 /**
  *

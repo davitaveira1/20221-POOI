@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Aula11;
+package Aula11_ex02;
+
+import Aula11.*;
 
 /**
  *
@@ -55,8 +57,8 @@ public class Conta {
     }
     
     public void saque(double valor){
-        if(saldo >= valor){
-            saldo = saldo - valor;
+        if(saldo >= (valor+5)){
+            saldo = saldo - (valor + 5);
         }else{
             System.out.println("Saldo insuficiente!");
         }
