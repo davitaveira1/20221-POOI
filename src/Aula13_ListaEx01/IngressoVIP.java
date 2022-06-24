@@ -16,7 +16,7 @@ public class IngressoVIP extends Ingresso{
     public IngressoVIP() {
     }
 
-    public IngressoVIP(double valorAdicional) {
+    public IngressoVIP(double valorAdicional) {        
         this.valorAdicional = valorAdicional;
     }
 
@@ -28,9 +28,9 @@ public class IngressoVIP extends Ingresso{
         this.valorAdicional = valorAdicional;
     }
 
-    @Override
-    public String toString() {
-        return "IngressoVIP{" + "valor do ingresso VIP=" + valorAdicional + '}';
+    
+    public void valorDoIngresso(double valorIngresso) {           
+        System.out.println("IngressoVIP{valor do ingresso VIP = "+(valorIngresso+valorAdicional));
     }
     
     

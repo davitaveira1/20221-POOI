@@ -11,7 +11,7 @@ package Aula13_ListaEx01;
  */
 public class Ingresso {
     
-    private double valor;
+    protected double valor;
 
     public Ingresso() {
     }
