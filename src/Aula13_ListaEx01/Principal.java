@@ -14,14 +14,10 @@ public class Principal {
     public static void main(String[] args) {
         
         Ingresso ing = new Ingresso(100);
-        IngressoVIP ingVIP= new IngressoVIP(50);
+        IngressoVIP ingVIP= new IngressoVIP(50,ing.valor);
         
         System.out.println(ing);
-        //System.out.println(ingVIP);
-        
-        ingVIP.valorDoIngresso(ing.valor);
-        
-        
+        System.out.println(ingVIP);
         
     }
     
