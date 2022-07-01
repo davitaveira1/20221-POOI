@@ -31,8 +31,7 @@ public class Vendedor extends Empregado{
     
     public double calcularSalario(){
         
-        double salarioFinal = salario *(1+percentualComissao);
-        
+        double salarioFinal = salario *(1+percentualComissao);        
         return salarioFinal;
     }
 
